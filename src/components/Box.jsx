@@ -1,9 +1,12 @@
 import React from 'react'
 
-const style = {}
+const box_style = {
+    backgroundColor: "pink", 
+    borderRadius: '8px'
+}
 
 const Box = () => (
-    <button style={style} onClick={ () => {}}>
+    <button style={box_style} onClick={ () => {} }>
         {"X"}
     </button>
 )
