@@ -1,8 +1,9 @@
 import React from 'react'
 
 const box_style = {
-    backgroundColor: "pink", 
-    borderRadius: '8px'
+    backgroundColor: "green",
+    opacity: '0.7',
+    borderRadius: '16px'
 }
 
 const Box = () => (
