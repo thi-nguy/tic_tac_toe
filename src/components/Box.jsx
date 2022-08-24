@@ -6,9 +6,9 @@ const box_style = {
     borderRadius: '16px'
 }
 
-const Box = () => (
-    <button style={box_style} onClick={ () => {} }>
-        {"X"}
+const Box = (props) => (
+    <button style={box_style} onClick={ () => props.onClick(props.index) } >
+        {props.value}
     </button>
 )
 
