@@ -1,8 +1,8 @@
-import Game from './components/Game.jsx'
+import Box from './components/Box.jsx'
 
 function App() {
   return (
-    <Game />
+    <Box />
   );
 }
 
