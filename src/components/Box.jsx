@@ -1,10 +1,10 @@
 import React from 'react'
 import "./Box.css"
 
-const Box = () => {
-    const style = value === "X" ? "box x" : "box o";
+const Box = ({value}) => {
+    const box_style = value === "X" ? "box x" : "box o";
     return (
-        <button className={style} onClick={onClick}>
+        <button className={box_style}>
             {value}
         </button>
     )
