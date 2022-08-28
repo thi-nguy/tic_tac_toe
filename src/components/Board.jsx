@@ -5,9 +5,9 @@ import './Board.css'
 const Board = ({board_value, board_onClick}) => {
     return (
         <div className="board">
-        {board_value.map( (item, index) => (
-            <Box box_value={item} box_onClick={ () => board_onClick(index)}/>
-            ))}
+            {board_value.map( (value, index) => {
+                return (<Box box_value={value} box_onClick={() => value === null && board_onClick(index)} />)
+            })}
         </div>
     )
 }
