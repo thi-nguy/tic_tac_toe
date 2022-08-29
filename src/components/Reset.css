@@ -1,0 +1,13 @@
+.reset {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(44, 135, 255);
+    border-radius: 10%;
+    width: 8rem;
+    height: 3rem;
+    font-size: 2rem;
+    margin: 3rem auto;
+    color: white
+}
